@@ -1,11 +1,13 @@
 @import "../../global.scss";
 
 .testimonials{
-    background-color: white;
+    background-color: $mainColor;
+    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 30px;
 
     @include mobile{
         justify-content: space-around;

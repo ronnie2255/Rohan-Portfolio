@@ -1,8 +1,9 @@
 @import "../../global.scss";
 
 .intro{
-    background-color: whitesmoke;
+    background-color: #3500d3;
     display: flex;
+    padding: 25px;
 
     @include mobile{
         flex-direction: column;
@@ -15,9 +16,9 @@
 
 
         .imgContainer{
-            width: 700px;
-            height: 700px;
-            background-color: crimson;
+            width: 600px;
+            height: 600px;
+            background-color: $mainColor;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -41,11 +42,12 @@
     .right{
         flex: 0.5;
         position: relative;
+        color: whitesmoke;
 
 
         .wrapper{
-            width: 100%;
-            height: 100%;
+            width: 80%;
+            height: 80%;
             padding-left: 50px;
             display: flex;
             flex-direction: column;
@@ -81,7 +83,8 @@
 
                 span{
                     font-size: inherit;
-                    color: crimson;
+                    color: $mainColor;
+                    
                 }
 
                 .ityped-cursor{

@@ -7,6 +7,7 @@ li{
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
+    color: whitesmoke;
 
     @include mobile{
         margin-right: 20px;
@@ -15,7 +16,8 @@ li{
 
 
     &.active{
-        background-color: $mainColor;
-        color: white;
+        background-color: #3500d3;
+        color: $mainColor;
+        font-weight: 900;
     }
 }
