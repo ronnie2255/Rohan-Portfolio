@@ -1,0 +1,48 @@
+@import "../../global.scss";
+
+.about{
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+    @include mobile{
+        justify-content: space-around;
+    }
+
+    h1{
+        font-size: 50px;
+        color: whitesmoke;
+
+        @include mobile{
+            font-size: 20px;
+        }
+    }
+
+    .container{
+        width: 70%;
+        background-color: #3500d3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        
+        
+    .wrapper{
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    p{
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    }
+
+
+    }
+

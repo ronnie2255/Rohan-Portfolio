@@ -70,4 +70,10 @@ export const completedPortfolio = [
     },
   ];
   
- 
+ export const resumeLanguages = [
+   {
+     id:1,
+     title: "JavaScript",
+     img:
+   },
+ ];
