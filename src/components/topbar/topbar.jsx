@@ -1,6 +1,7 @@
 import "./topbar.scss"
 import Person from '@mui/icons-material/Person';
 import Mail from '@mui/icons-material/Mail';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 //import {Air, Mail} from "@material-ui/icons/";
 
@@ -24,6 +25,12 @@ export default function topbar({ menuOpen, setMenuOpen }) {
                     <div className="itemContainer">
                         <Mail className="icon" />
                         <span>ronnie2255@icloud.com</span>
+                    </div>
+                    <div className="itemContainer">
+                        <GitHubIcon className="icon" />
+                        <span><a href="https://github.com/ronnie2255" 
+                                 target="_blank" 
+                                 rel="noopener noreferrer">GitHub</a></span>
                     </div>
                 </div>
                 

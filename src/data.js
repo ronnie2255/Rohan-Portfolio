@@ -74,6 +74,83 @@ export const completedPortfolio = [
    {
      id:1,
      title: "JavaScript",
-     img:
+     img: "https://i.ibb.co/sQLD77b/javascript.png",
    },
+   {
+    id: 2,
+    title: "HTML5",
+    img: "https://i.ibb.co/8zyJFbK/html5.png",
+  },
+  {
+    id: 3,
+    title: "CSS3",
+    img: "https://i.ibb.co/YRPgy5k/CSS2.png",
+  },
+  {
+    id: 4,
+    title: "Python",
+    img: "https://i.ibb.co/dG3szxf/python.png",
+  },
+  {
+    id: 5,
+    title: "MySql",
+    img: "https://i.ibb.co/km42SXK/mysql.png",
+  },
+
  ];
+
+ 
+ export const frameWorks = [
+  {
+    id:1,
+    title: "ReactJS",
+    img: "https://i.ibb.co/XVTMDnp/ReactJS.png",
+  },
+  {
+    id: 2,
+    title: "AngularJS",
+    img: "https://i.ibb.co/P9px984/Angular-JS.png",
+  },
+  {
+   id: 3,
+   title: "VueJS",
+   img: "https://i.ibb.co/0VJcf61/VueJS.png",
+ },
+ {
+   id: 4,
+   title: "NextJS",
+   img: "https://i.ibb.co/4mt6Yz0/nextjs.png",
+ },
+ {
+  id: 5,
+  title: "Express",
+  img: "https://i.ibb.co/hmsdvWm/Express2.jpg",
+},
+];
+
+export const otherTech = [
+  {
+    id:1,
+    title: "Node JS",
+    img: "https://i.ibb.co/XX8JgCH/node.png",
+  },
+  {
+    id: 2,
+    title: "Figma",
+    img: "https://i.ibb.co/bzMRDc8/figma.png",
+  },
+  {
+   id: 3,
+   title: "Git",
+   img: "https://i.ibb.co/C033q41/git.jpg",
+ },
+ {
+   id: 4,
+   title: "Tableau",
+   img: "https://i.ibb.co/8NFYVMD/tableau.png",
+ },
+];
+
+
+
+
