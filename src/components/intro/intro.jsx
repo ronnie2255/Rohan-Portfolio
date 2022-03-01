@@ -3,7 +3,18 @@ import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
 export default function Intro() {
-    const textRef = useRef();
+    const textRef = useRef(null);
+    const greetRef = useRef(null);
+
+    useEffect(()=> {
+        init(greetRef.current, { 
+            showCursor: true, 
+            backDelay: 1500,
+            backSpeed: 60,
+            strings: ["Bonjour!, Je suis", "Hi There, I'm" ],
+         });
+    
+    }, [])
 
     useEffect(()=> {
         init(textRef.current, { 
@@ -23,7 +34,7 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
+                    <h2><span ref={greetRef}></span></h2>
                     <h1>Rohan</h1>
                     <h3>Aspiring <span ref={textRef}></span></h3>
                 </div>
