@@ -31,11 +31,6 @@ export const completedPortfolio = [
     },
   ];
 
-
-
-
-
-
   
   export const upcomingPortfolio = [
     {
