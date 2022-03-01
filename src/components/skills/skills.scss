@@ -7,11 +7,7 @@
     align-items: center;
     padding-top: 30px;
 
-    @include mobile{
-        justify-content: space-around;
-    }
- 
-
+   
     h1{
         font-size: 50px;
         color: whitesmoke;
@@ -50,7 +46,7 @@
 
         .item{
             width: 220px;
-            height: 150px;
+            height: 170px;
             border-radius: 20px;
             border: 1px solid rgb(240, 239, 239);
             margin: 10px 20px;
@@ -64,14 +60,18 @@
 
 
         @include mobile{
-            width: 130px;
-            height: 100px;
+            width: 150px;
+            height: 120px;
         }
 
         h3{
             position: absolute;
             font-style: 20px;
             color: $mainColor;
+
+            @include mobile{
+                font-size: 15px;
+            }
         }
 
         img{
@@ -80,6 +80,9 @@
             object-fit: cover;
             z-index: 1;
 
+            @include mobile{
+                border-radius: 20px;
+            }
         }
 
         &:hover{

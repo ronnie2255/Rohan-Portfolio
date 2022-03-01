@@ -8,9 +8,10 @@ import { useEffect, useState } from 'react';
 export default function Skills() {
 
   const [selected, setSelected] =useState("languages");
-    const [data, setData] =useState([]);
+  const [data, setData] =useState([]);
 
-    const list = [
+  const list = [
+
         {
             id: "languages",
             title: "Languages",
@@ -19,50 +20,47 @@ export default function Skills() {
             id: "frameworks",
             title: "Frameworks",
           },
-          
+            
           {
             id: "others",
             title: "Others",
           },
-          
+            
         ];
 
         useEffect(() => {
 
           switch(selected) {
-              case "languages":
-                  setData(resumeLanguages);
-                  break;
-              case "frameworks":
-                  setData(frameWorks);
-                  break;
-              case "others":
-                  setData(otherTech);
-                  break;
-                
-              default:
-                  setData(resumeLanguages);
+            case "languages":
+              setData(resumeLanguages);
+              break;
+            case "frameworks":
+              setData(frameWorks);
+              break;
+            case "others":
+              setData(otherTech);
+              break;  
+            default:
+              setData(resumeLanguages);
           }
 
       }, [selected])
 
-  return ( 
-  <div className="skills" id="skills">
-    <h1>Skills</h1>
-            
-        <ul>
-            {list.map(item=> (
+    return ( 
+      <div className="skills" id="skills">
+          <h1>Skills</h1>
+          <ul>
+              {list.map(item=> (
                   <SkillsList 
                       title={item.title} 
                       active={selected === item.id}
                       setSelected={setSelected}
                       id={item.id}
-                    />
+                  />
                 ))} 
-        </ul>
-
-        <div className="container">
-                {data.map((d) => (
+          </ul>
+          <div className="container">
+               {data.map((d) => (
                     <div className="item">
                     <img 
                         src={d.img} 
@@ -70,7 +68,7 @@ export default function Skills() {
                     <h3>{d.title}</h3>
                 </div>
                 ))}  
-            </div>
+          </div>
   </div>
   )
 }
