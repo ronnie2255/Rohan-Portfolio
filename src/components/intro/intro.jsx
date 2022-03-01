@@ -11,7 +11,7 @@ export default function Intro() {
             showCursor: true, 
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Bonjour!, Je suis", "Hi There, I'm" ],
+            strings: ["Bonjour!, Je suis", "Hi There!, I'm" ],
          });
     
     }, [])
