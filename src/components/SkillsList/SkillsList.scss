@@ -8,6 +8,7 @@ li{
     border-radius: 10px;
     cursor: pointer;
     color: whitesmoke;
+    font-weight: bolder;
 
     @include mobile{
         margin-right: 20px;
@@ -16,8 +17,8 @@ li{
 
 
     &.active{
-        background-color: #3500d3;
-        color: $mainColor;
+        background-color: $mainColor;
+        color: #c2d2fe;
         font-weight: 900;
     }
 }
