@@ -30,7 +30,7 @@ export default function Intro() {
     return (
         <div className="intro" id="intro">
         {/* visible only when window greater than 768px */}
-        {width > 600 && (
+        {width > 768 && (
             <>
                 <div className="left">
                     <div className="imgContainer">
