@@ -16,10 +16,10 @@
         flex: 0.5;
         overflow: hidden;
 
-        @include mobile{
-            padding-right: 50px;
-            padding-top: 20px;
-        }
+        // @include mobile{
+        //     padding-right: 50px;
+        //     padding-top: 20px;
+        // }
 
         .imgContainer{
             width: 600px;
@@ -31,21 +31,21 @@
             justify-content: center;
             float: right;
 
-            @include mobile{
-                align-items: flex-start;
-                width: 250px;
-                height: 250px;
+            // @include mobile{
+            //     align-items: flex-start;
+            //     width: 250px;
+            //     height: 250px;
                 
-            }
+            // }
 
             img{
                 width: 100%;
                 object-fit: fill;
                 z-index: 1;
                 
-                @include mobile{
-                    height: 100%;
-                }
+                // @include mobile{
+                //     height: 100%;
+                // }
             }
         }
     }
@@ -56,8 +56,8 @@
         color: whitesmoke;
 
         @include mobile {
-            padding-bottom: 90px;
-            align-items: flex-start;
+            // padding-bottom: 90px;
+            align-items: center;
             overflow: hidden;
         }
 
@@ -104,10 +104,12 @@
                     font-size: inherit;
                     color: $mainColor;
                     
+                    
+
                 }
 
                 .ityped-cursor{
-                    animation: blink 1s infinite;
+                    animation: blink 1.5s infinite;
                 }
             
             @keyframes blink {
