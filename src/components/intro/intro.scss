@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro{
-    background-color: #3500d3;
+    background-color: $secondColor;
     display: flex;
     padding: 25px;
 
@@ -24,7 +24,7 @@
         .imgContainer{
             width: 600px;
             height: 600px;
-            background-color: $mainColor;
+            background-color: $thirdColor;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -53,7 +53,7 @@
     .right{
         flex: 0.5;
         position: relative;
-        color: whitesmoke;
+        color: $mainColor;
 
         @include mobile {
             // padding-bottom: 90px;

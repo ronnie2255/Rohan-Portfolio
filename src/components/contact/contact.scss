@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact{
-    background-color: #3500d3;
+    background-color: $secondColor;
     display: flex;
 
     @include mobile{
@@ -70,7 +70,7 @@
             button{
                 width: 150px;
                 height: 30px;
-                color: white;
+                color: $mainColor;
                 background-color: crimson;
                 border: none;
                 border-radius: 10px;
@@ -84,7 +84,7 @@
             }
 
             span{
-                color: green;
+                color: $secondColor;
             }
         }
     }
