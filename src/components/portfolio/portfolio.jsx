@@ -4,6 +4,7 @@ import "./portfolio.scss";
 import {completedPortfolio,
         upcomingPortfolio} from "../../data.js";
 import { useEffect } from "react";
+import { ExternalLink } from "react-external-link";
 
 export default function Portfolio() {
 
@@ -53,10 +54,14 @@ export default function Portfolio() {
             <div className="container">
                 {data.map((d) => (
                     <div className="item">
-                    <img 
-                        src={d.img} 
-                        alt="" />
-                    <h3>{d.title}</h3>
+                        <h3>{d.title}</h3>
+                        <ExternalLink className="projectLink" href={d.adr}>     
+                            <img 
+                            src={d.img} 
+                            alt="" />  
+                        </ExternalLink>
+                          
+                       
                 </div>
                 ))}
                 

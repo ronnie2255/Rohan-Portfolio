@@ -2,6 +2,8 @@
 
 .portfolio{
     background-color: $secondColor;
+    width: 100vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,6 +38,7 @@
 
     .container{
         width: 70%;
+        height: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -47,8 +50,8 @@
         }
 
         .item{
-            width: 220px;
-            height: 170px;
+            width: 30%;
+            height: 28%;
             border-radius: 20px;
             border: 1px solid rgb(240, 239, 239);
             margin: 10px 20px;
@@ -61,14 +64,34 @@
 
 
         @include mobile{
-            width: 150px;
-            height: 120px;
+            width: 35%;
+            height: 25%;
         }
+            .projectLink{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+
+            }
+            
+            
+
+            .projectLink{
+                width: 100%;
+                height: 100%;
+                font-size: 20px;
+                color: $mainColor;
+                text-decoration: none;
+                overflow: hidden;
+                text-align: center;
+                z-index: 1;
+                position: absolute;
+            }
 
             h3{
                 position: absolute;
                 color: $mainColor;
-                font-size: 20px;
+                // font-size: 20px;
                 text-align: center;
 
                 @include mobile{

@@ -4,12 +4,16 @@ export const completedPortfolio = [
       title: "Calculator App",
       img:
         "https://i.ibb.co/Fb6mRWF/calculator.png",
+      adr:
+        "https://react-calculator-prr.herokuapp.com/",
+    
     },
     {
       id: 2,
       title: "To-do list",
       img:
         "https://i.ibb.co/RjGdkxw/Todolist.png",
+      adr: "https://todolist-prr.herokuapp.com",
     },
     {
       id: 3,
