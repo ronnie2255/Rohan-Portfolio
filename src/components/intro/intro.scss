@@ -16,47 +16,51 @@
         flex: 0.5;
         overflow: hidden;
 
-        // @include mobile{
-        //     padding-right: 50px;
-        //     padding-top: 20px;
-        // }
+        @include mobile{
+            padding-right: 50px;
+            padding-top: 20px;
+        }
 
         .imgContainer{
             width: 600px;
             height: 600px;
-            background-color: $thirdColor;
+            background-color: $secondColor;
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: right;
 
-            // @include mobile{
-            //     align-items: flex-start;
-            //     width: 250px;
-            //     height: 250px;
+            @include mobile{
+                align-items: flex-start;
+                width: 400px;
+                height: 400px;
                 
-            // }
+            }
 
             img{
                 width: 100%;
                 object-fit: fill;
                 z-index: 1;
                 
-                // @include mobile{
-                //     height: 100%;
-                // }
+                @include mobile{
+                    height: 80%;
+                }
             }
         }
     }
 
     .right{
+        width: 400px;
+        height: 400px;
         flex: 0.5;
         position: relative;
         color: $mainColor;
 
         @include mobile {
-            // padding-bottom: 90px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-left: 50px;
             align-items: center;
             overflow: hidden;
         }
@@ -88,7 +92,7 @@
                 font-size: 35px;
 
                 @include mobile{
-                    font-size: 25px;
+                    font-size: 20px;
                 }
             }
 
@@ -97,7 +101,7 @@
 
 
                 @include mobile{
-                    font-size: 25px;
+                    font-size: 20px;
                 }
 
                 span{

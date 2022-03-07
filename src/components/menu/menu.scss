@@ -16,14 +16,14 @@
 
 
     &.active{
+        width: 100vw;
         right: 0;
         background-color: $secondColor;
-
     }
 
     ul{
         margin: 0;
-        padding: 0;
+        padding-left: 50%;
         list-style: none;
         font-size: 30px;
         font-weight: 500;

@@ -29,24 +29,24 @@ export default function Intro() {
     }, [])
     return (
         <div className="intro" id="intro">
-        {/* visible only when window greater than 768px */}
+        {/* visible only when window greater than 768px
         {width > 768 && (
             <>
+                
+            </>
+        )} */}
                 <div className="left">
                     <div className="imgContainer">
                         <img src="assets/ronnie.png" alt="" />
                     </div>
                 </div>
-            </>
-        )}
-                
                 <div className="right">
                     <div className="wrapper">
                         <h2><span ref={greetRef}></span></h2>
                         <h1>Rohan</h1>
                         <h3>Aspiring <span ref={textRef}></span></h3>
                     </div>
-                    <a href="#portfolio">
+                    <a href="#about">
                         <img src="assets/down.png" alt="" />
                     </a>
                 </div>
