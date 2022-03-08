@@ -1,12 +1,12 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import useWindowSize from "../../useWindowSize";
+//import useWindowSize from "../../useWindowSize";
 
 export default function Intro() {
     const textRef = useRef(null);
     const greetRef = useRef(null);
-    const { width } = useWindowSize();
+    // const { width } = useWindowSize();
 
     useEffect(()=> {
         init(greetRef.current, { 

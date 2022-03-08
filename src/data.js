@@ -13,13 +13,15 @@ export const completedPortfolio = [
       title: "To-do list",
       img:
         "https://i.ibb.co/RjGdkxw/Todolist.png",
-      adr: "https://todolist-prr.herokuapp.com",
+      adr: 
+        "https://todolist-prr.herokuapp.com",
     },
     {
       id: 3,
       title: "E-commerce Website",
       img:
         "https://i.ibb.co/CQYHXqM/ecommerce.png",
+      adr: "https://vagaecom2255.herokuapp.com",
     },
     {
       id: 4,
