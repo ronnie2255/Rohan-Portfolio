@@ -1,6 +1,7 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+//import waveSvg from "../../svg/wave.svg";
 //import useWindowSize from "../../useWindowSize";
 
 export default function Intro() {
@@ -29,6 +30,7 @@ export default function Intro() {
     }, [])
     return (
         <div className="intro" id="intro">
+         
         {/* visible only when window greater than 768px
         {width > 768 && (
             <>
@@ -50,9 +52,8 @@ export default function Intro() {
                         <img src="assets/down.png" alt="" />
                     </a>
                 </div>
-          
-        
-        </div>
+
+         </div>
     )
 }
 

@@ -1,9 +1,24 @@
 //#282828
 //#3500d3
 
-$mainColor: black; 
-$secondColor: #80FFD4;
-$thirdColor: #80FFD4;
+// $mainColor: black; 
+// $secondColor: #80FFD4;
+// $thirdColor: #80FFD4;
+
+// $width: 768px;
+
+
+// @mixin mobile {
+//     @media (max-width: #{$width}) {
+//         @content
+//     }
+    
+// }
+
+$mainColor: #002233;
+$secondColor: #0066FF;
+$textColor: #80FFD4;
+// $thirdColor: #80FFD4;
 
 $width: 768px;
 
