@@ -7,8 +7,9 @@ li{
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
-    background-color: $secondColor;
-
+    background-color: $mainColor;
+    color: $textColor;
+    
     @include mobile{
         margin-right: 20px;
     }
@@ -16,8 +17,8 @@ li{
 
 
     &.active{
-        background-color: $mainColor;
-        color: $secondColor;
+        background-color: $secondColor;
+        color: $textColor;
         font-weight: 900;
 
     }

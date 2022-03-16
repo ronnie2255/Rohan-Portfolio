@@ -6,7 +6,7 @@ import Skills from "./components/skills/skills";
 
 //import Works from "./components/works/works";
 //import Testimonials from "./components/testimonials/testimonials";
-import Contact from "./components/contact/contact";
+//import Contact from "./components/contact/contact";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/menu";
@@ -24,7 +24,7 @@ function App() {
         <About/>
         <Portfolio/>
         <Skills/>
-        <Contact/>
+        {/* <Contact/> */}
 
 
       </div>
